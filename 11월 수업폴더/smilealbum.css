@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Josefin+Slab:ital,wght@1,200&family=Luckiest+Guy&family=Nanum+Gothic&family=News+Cycle&family=Open+Sans:ital,wght@0,300;1,400&family=Sigmar+One&family=Zen+Antique+Soft&display=swap');
+body {
+    width: 90%;
+    margin-left: auto;
+    color: #010b1c;
+    
+}
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px;
+}
+div {
+    margin-top: -30px;
+}
+div img {
+    width: 310px;
+    height: 400px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    width: 91%;
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 10px;
+    text-shadow: 3px 3px 5px;
+    color: #010b1c;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 40px;
+    }   
+    div img {
+        width: 250px;
+        height: 300px;
+        padding-bottom: 8px;
+        margin-left: -5px;
+    }
+    footer a {
+        font-size: 15px;
+        width: 84%;
+        text-align: center;
+        
+    }
+}
